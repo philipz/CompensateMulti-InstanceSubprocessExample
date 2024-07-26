@@ -3,7 +3,7 @@ package com.example.workflow.delgates;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
 
-import javax.inject.Named;
+import jakarta.inject.Named;
 
 @Named
 public class SendEmail implements JavaDelegate {
